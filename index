@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Poeziile mele</title>
+    <style>
+        /* Stilul de bază, pentru PC/laptop */
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        /* Stiluri pentru telefoane (ecrane mai mici) */
+        @media (max-width: 768px) {
+            body {
+                font-size: 18px; /* Fontul va fi mai mare pe telefoane */
+            }
+
+            h1 {
+                font-size: 2rem; /* Dimensiunea titlului mai mică pe telefoane */
+            }
+
+            .container {
+                padding: 15px; /* Ajustare padding pentru telefoane */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Poeziile mele preferate</h1>
+        <p>Aici vei găsi poeziile mele favorite, scrise cu grijă și dedicate celor dragi...</p>
+        <!-- Adaugă mai multe poezii sau conținutul dorit aici -->
+    </div>
+</body>
+</html>
